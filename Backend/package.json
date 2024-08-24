@@ -1,0 +1,15 @@
+{
+  "name": "bola-backend",
+  "version": "1.0.0",
+  "description": "nodejs+mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rico YY",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^6.8.0",
+    "mongoose": "^8.5.4"
+  }
+}
