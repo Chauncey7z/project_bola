@@ -1,4 +1,4 @@
-const db = require('./connection');
+const db = require('./config/connection');
 
 const insertData = async () => {
     let database = await db();
