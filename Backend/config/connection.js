@@ -1,7 +1,8 @@
 //const { MongoClient } = require('mongodb');
 const { default: mongoose } = require('mongoose');
+require('dotenv').config();
 
-const uri = "mongodb+srv://caopi3407:m6KLh9fAol8RR7go@bola-db.72txi.mongodb.net/bola-db?retryWrites=true&w=majority&appName=bola-db"
+const uri = process.env.DATABASE_URL;
 
 //const client = new MongoClient(uri);
 
