@@ -1,6 +1,6 @@
 //const { MongoClient } = require('mongodb');
 const { default: mongoose } = require('mongoose');
-require('dotenv').config();
+require('dotenv').config({ path: "../Backend/.env" });
 
 const uri = process.env.DATABASE_URL;
 
